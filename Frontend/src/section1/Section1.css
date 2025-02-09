@@ -3,8 +3,6 @@
     height: 50vh;
     background-color: rgb(240, 240, 240);
     padding-left: 3%;
-    position: absolute;
-    z-index: -1;
 }
 
 .Sec1Con ul li{
@@ -44,7 +42,6 @@
     display: flex;  /* Aligns items in a row */
     gap: 20px; /* Adds spacing between items */
     align-items: flex-end; /* Aligns inputs properly */
-    z-index: 2;
   }
   
   .input-group {
@@ -83,6 +80,6 @@
 .hospital-Img {
     position: absolute;
     right: 0;
-    top: 28%;
+    top: 26%;
     
 }
