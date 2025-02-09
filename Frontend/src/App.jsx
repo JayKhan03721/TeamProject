@@ -6,6 +6,8 @@ import { IoMdArrowDropdown } from "react-icons/io";
 import "./App.css";
 import logo from "./assets/nn.png";
 import Section1 from "./section1/Section1";
+import Section2 from "./Section2/Section2"
+import Section3 from "./Section3/Section3";
 
 function App() {
   return (
@@ -66,84 +68,10 @@ function App() {
       </ul>
 
       <Section1></Section1>
+      <Section2></Section2>
+      <Section3></Section3>
 
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+     
     </>
   );
 }
