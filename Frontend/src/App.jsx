@@ -7,6 +7,7 @@ import { FaYoutube } from "react-icons/fa";
 import { IoMdArrowDropdown } from "react-icons/io";
 import "./App.css";
 import logo from "./assets/nn.png";
+import Section1 from "./section1/Section1";
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
         <FaFacebookF className="icon fb" />
         <FaYoutube className="icon yt" />
       </ul>
+      <Section1></Section1>
     </>
   );
 }
