@@ -1,6 +1,4 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import { IoMdSearch } from "react-icons/io";
 import { FaFacebookF } from "react-icons/fa6";
 import { FaYoutube } from "react-icons/fa";
@@ -13,31 +11,60 @@ function App() {
   return (
     <>
       <ul className="header">
-        <img src={logo} alt="logo" className="logo" />
-        <li>Home</li>
-        <li className="dropDown">
-          <span id="insurance">
+        <li>
+          <img src={logo} alt="logo" className="logo" />
+        </li>
+
+        <li className="Nav">Home</li>
+
+        <li className="dropDown Nav">
+          <span className="dDlbl">
             Insurance <IoMdArrowDropdown className="icon" />
           </span>
           <ul className="options">
-            <li>Life</li>
-            <li>Car</li>
-            <li>Fire</li>
+            <li>Life Insurance</li>
+            <li>Car Insurance</li>
+            <li>Fire Insurance</li>
           </ul>
         </li>
-        <li>Claims</li>
-        <li>Gallery</li>
-        <li className="dropDown">
-          About <IoMdArrowDropdown className="icon" />
-        </li>
-        <li className="dropDown">
-          Contact Us <IoMdArrowDropdown className="icon" />
+
+        <li className="Nav">Claims</li>
+
+        <li className="Nav">Gallery</li>
+
+        <li className="dropDown Nav">
+          <span className="dDlbl">
+            About <IoMdArrowDropdown className="icon" />
+          </span>
+          <ul className="options">
+            <li>Our Company</li>
+            <li>Our President</li>
+            <li>Work Force</li>
+          </ul>
         </li>
 
-        <IoMdSearch className="icon search" />
-        <FaFacebookF className="icon fb" />
-        <FaYoutube className="icon yt" />
+        <li className="dropDown Nav">
+          <span className="dDlbl">
+            Contact Us <IoMdArrowDropdown className="icon" />
+          </span>
+          <ul className="options">
+            <li>Email</li>
+            <li>whatsApp</li>
+            <li>Phone</li>
+          </ul>
+        </li>
+
+        <li id="links">
+          <IoMdSearch className="icon search" />
+        </li>
+        <li id="links">
+          <FaFacebookF className="icon fb" />
+        </li>
+        <li id="links">
+          <FaYoutube className="icon yt" />
+        </li>
       </ul>
+
       <Section1></Section1>
     </>
   );
