@@ -1,4 +1,5 @@
 import './Section1.css'
+import hospital from '../assets/hospital-nobg.png'
 
 
 const Section1 = (props) => {
@@ -42,7 +43,7 @@ const Section1 = (props) => {
         </div>
       </div>
 
-
+        <img className='hospital-Img' src={hospital} alt="hospital" />
     </div>
   );
 };

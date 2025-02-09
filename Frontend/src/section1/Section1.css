@@ -3,6 +3,7 @@
     height: 50vh;
     background-color: rgb(240, 240, 240);
     padding-left: 3%;
+    position: absolute;
 }
 
 .Sec1Con ul li{
@@ -77,4 +78,9 @@
   }
   
  
-  
+.hospital-Img {
+    position: absolute;
+    right: 0;
+    top: 28%;
+    
+}
