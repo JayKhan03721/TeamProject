@@ -21,7 +21,11 @@ const Section1 = (props) => {
         <div className='QuoteInput'>
           <div className="input-group">
             <h4>Product</h4>
-            <input type='text' placeholder='Life' />
+            <select name="product" id="product">
+                <option value="life">Life</option>
+                <option value="life">Car</option>
+                <option value="life">Fire</option>
+            </select>
           </div>
           
           <div className="input-group">
