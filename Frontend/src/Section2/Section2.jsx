@@ -1,6 +1,6 @@
 import './section2.css'
 
-const Section3 = (props) => {
+const Section2 = (props) => {
 
   return (
     <div className='Section2'>
@@ -8,4 +8,4 @@ const Section3 = (props) => {
     </div>
     );
 };
-export default Section3;
+export default Section2;

@@ -1,6 +1,35 @@
 .Section3 {
-    position: relative;
-    height: 90vh;
-    width: 100%;
-    background-color: red;
+  position: relative;
+  height: 90vh;
+  width: 100%;
+  color: #00050a;
+  padding: 0 3%;
+}
+
+.Section3 h3 {
+  color: #007bff;
+}
+
+.buttons {
+  width: 23%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons button {
+  background: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  align-self: flex-end;
+  font-weight: bolder;
+}
+
+.divisions {
+  display: flex;
+  flex-direction: row;
+  /* background-color: #007bff; */
 }
