@@ -1,12 +1,10 @@
-
-
 .header {
   width: 100%;
   height: fit-content;
   display: flex;
   background-color: white;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
   color: rgb(42, 42, 255);
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
@@ -15,11 +13,18 @@
 .header li {
   background-color: transparent;
   cursor: pointer;
+  list-style: none;
+  padding: 10px;
+  position: relative; 
+}
+
+.Nav:hover {
+  background-color: #4a4aff47;
+  border-radius: 10px;
 }
 
 .logo {
   width: 100px;
-  margin-right: 3%;
 }
 
 .icon {
@@ -30,7 +35,6 @@
 
 .search {
   color: gray;
-  margin-left: 3%;
 }
 
 .fb {
@@ -41,23 +45,52 @@
   color: red;
 }
 
-.dropDown #insurance{
-  display: flex;
-  background-color: transparent;
+/* Dropdown Styling */
+.dropDown {
+  position: relative;
 }
 
-.dropDown:hover .options  {
+.dDlbl {
+  display: flex;
+}
+
+.dropDown:hover .options {
   display: block;
 }
 
 .options {
   display: none;
   position: absolute;
-  transform: translateY(20px);
+  top: 100%;
+  left: 0;
+  background-color: rgba(137, 137, 137, 0.1);
+  backdrop-filter: blur(50px);
+  min-width: 150px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  transform: translateY(10px);
+  opacity: 0;
 }
 
-.header li {
-  height: 100%;
-  width: 100%;
-  background-color: crimson;
+.dropDown:hover .options {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.options li {
+  padding: 10px;
+  color: #8f8ffc;
+  z-index: 1000;
+}
+
+.options li:hover {
+  background-color: rgba(25, 52, 202, 0.1);
+  color: #4a4aff;
+}
+
+#links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
