@@ -1,5 +1,79 @@
 .Sec1Con {
     width: 100%;
     height: 50vh;
-    background-color: crimson;
+    background-color: rgb(210, 207, 207);
+    padding-left: 3%;
 }
+
+.Sec1Con ul li{
+    display: inline-block;
+    justify-content: space-evenly;
+    padding-right: 5px;
+    margin-bottom: 40px;
+    list-style-type: none;
+    font-size: 3%;
+    margin-top: 1%;
+    color: rgb(10, 147, 147);
+    cursor: pointer;
+}
+
+.Sec1Con h1{
+    color: rgb(73, 73, 214);
+    margin-bottom: 10px;
+    word-spacing: 10px;
+}
+
+.Sec1Con .p1{
+    margin-bottom: 30px;
+}
+
+.Quote {
+    display: flex;
+    align-items: center;
+    padding: 2px;
+  }
+  
+  .QuoteInput {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;  /* Aligns items in a row */
+    gap: 20px; /* Adds spacing between items */
+    align-items: flex-end; /* Aligns inputs properly */
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column; /* Places label above input */
+    align-items: flex-start;
+  }
+  
+  .input-group h4 {
+    font-size: 16px;
+    margin-bottom: 5px; /* Adds space between label and input */
+  }
+  
+  .input-group input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 120px; /* Adjust width as needed */
+  }
+  
+  .QuoteInput button {
+    background: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-end; /* Aligns button with inputs */
+  }
+  
+  .QuoteInput button:hover {
+    background: #0056b3;
+  }
+  
+ 
+  

@@ -18,17 +18,27 @@ const Section1 = (props) => {
       </p>
 
       <div className='Quote'>
-       
         <div className='QuoteInput'>
-        <h4>Product</h4>
-          <input type='text' placeholder='Life' />
-          <h4>Email</h4>
-          <input type='text' placeholder='Email' />
-          <h4>Name</h4>
-          <input type='text' placeholder='Name' />
-          <button>Quote</button>
+          <div className="input-group">
+            <h4>Product</h4>
+            <input type='text' placeholder='Life' />
+          </div>
+          
+          <div className="input-group">
+            <h4>Email</h4>
+            <input type='email' placeholder='Email' />
+          </div>
+          
+          <div className="input-group">
+            <h4>Name</h4>
+            <input type='text' placeholder='Name' />
+          </div>
+          
+          <button>Get a quote</button>
         </div>
       </div>
+
+
     </div>
   );
 };
