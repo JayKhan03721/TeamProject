@@ -1,0 +1,63 @@
+
+
+.header {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  background-color: white;
+  align-items: center;
+  justify-content: space-evenly;
+  color: rgb(42, 42, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+.header li {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.logo {
+  width: 100px;
+  margin-right: 3%;
+}
+
+.icon {
+  background-color: transparent;
+  width: 20px;
+  height: 20px;
+}
+
+.search {
+  color: gray;
+  margin-left: 3%;
+}
+
+.fb {
+  color: rgb(25, 165, 249);
+}
+
+.yt {
+  color: red;
+}
+
+.dropDown #insurance{
+  display: flex;
+  background-color: transparent;
+}
+
+.dropDown:hover .options  {
+  display: block;
+}
+
+.options {
+  display: none;
+  position: absolute;
+  transform: translateY(20px);
+}
+
+.header li {
+  height: 100%;
+  width: 100%;
+  background-color: crimson;
+}
