@@ -11,6 +11,10 @@
     color: #007bff;
 }
 
+.cardCon a:hover {
+    color: #3d0debdd;
+}
+
 
 .cardContent {
     width: 90%;
@@ -18,13 +22,19 @@
     margin: 0 0 1% 0;
     background-color: rgb(240, 240, 240);
     border-radius: 15px;
-    box-shadow: 8px 0.5px 16px rgba(0, 0, 0, 0.2) ;
+    box-shadow: 8px 0.5px 16px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 12%;
-}
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .cardContent:hover{
+    background-color: bisque;
+  }
+  
 
 
 
@@ -33,4 +43,29 @@
     
 }
 
-.image {}
+.cardCon {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 0;
+    align-items: flex-end;
+    position: relative; /* Needed for absolute positioning inside */
+} 
+
+.image-container {
+    position: absolute;
+    top: -35px; /* Move image upward */
+    left: 50%; /* Center the image horizontally */
+    transform: translateX(-50%); /* Center it properly */
+    width: 60px; /* Adjust image size */
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container svg {
+    font-size: 50px; /* Make icon larger */
+    color: #007bff; /* Adjust color */
+}
+
+

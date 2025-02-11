@@ -1,0 +1,94 @@
+.section5 {
+    position: absolute;   /* Allows precise positioning */
+    right: 3%;             /* Aligns the element to the right */
+    width: 46.9%;          /* Sets the width to 46.9% of the page */
+    height: 200vh;         /* Sets the height to 180% of the viewport height */
+    background-color: rgb(240, 240, 240); /* Sets the background color */
+    top: 250%;             /* Places it a bit lower from the top of the page */
+    margin: 0 0 1% 0;
+    border-radius: 15px;
+    box-shadow: 4px 4px 20px gray;
+    display: flex;
+    flex-direction: column;   /* Arranges children vertically */
+    align-items: flex-start;  /* Aligns the children to the left */
+    padding-top: 20px;        /* Adds space at the top */
+  }
+  
+  .person {
+    position: absolute;
+    top: -279px; /* Move image upward */
+    left: 50%; /* Center the image horizontally */
+    transform: translateX(-50%); /* Center it properly */
+    width: 480px; /* Adjust image size */
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  .policy-type {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    width: 100%;
+  }
+  .policy-type h1{
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  .policy-type h2 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .policy-type p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .policy-type ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .policy-type ul li {
+    margin-bottom: 5px;
+  }
+  
+  hr {
+    width: 90%;                /* Sets the width to 70% */
+    border: 0;                 /* Removes any default border */
+    border-radius: 20px;
+    border-top: 2px solid #ccc; /* Adds a solid line on top */
+    margin: 20px auto;          /* Adds margin at the top and bottom, and centers it horizontally */
+  }
+  
+  .btn {
+    margin-top: 50px;
+    background: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+    margin-left: auto; /* Aligns button to the right */
+    margin-right: 10px; /* Adds space from the right */
+    word-spacing: 5px;
+    box-shadow: 5px 5px 16px rgba(0, 0, 0, 0.2);
+    display: block; /* Makes the button a block element */
+  }
+  
+  .btn:hover {
+    background: #0056b3;
+  }
+  
+  .copy {
+    padding-top: 120px;
+    margin-left: auto; /* Pushes the element to the right */
+    margin-right: 10px; /* Optional: adds some space from the right */
+    width: fit-content; /* Optional: adjusts the width based on content */
+  }
+  

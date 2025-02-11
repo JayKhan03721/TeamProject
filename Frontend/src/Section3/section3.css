@@ -8,6 +8,7 @@
 
 .Section3 h3 {
   color: #007bff;
+  margin-bottom: 30px;
 }
 
 .buttons {
@@ -24,8 +25,13 @@
   border: none;
   border-radius: 12px;
   cursor: pointer;
-  align-self: flex-end;
-  font-weight: bolder;
+  align-self: flex-end; /* Aligns button with inputs */
+  word-spacing: 5px;
+  box-shadow: 5px 5px 16px rgba(0, 0, 0, 0.4);
+}
+
+.buttons button:hover {
+background: #0056b3;
 }
 
 .divisions {
@@ -33,3 +39,10 @@
   flex-direction: row;
   /* background-color: #007bff; */
 }
+
+background: #007bff;
+color: white;
+padding: 10px 15px;
+border: none;
+border-radius: 18px;
+cursor: pointer;
