@@ -54,9 +54,7 @@
 .image-container {
     position: absolute;
     top: -35px; /* Move image upward */
-    left: 50%; /* Center the image horizontally */
-    transform: translateX(-50%); /* Center it properly */
-    width: 60px; /* Adjust image size */
+    width: 60px; 
     height: 60px;
     display: flex;
     align-items: center;
