@@ -1,0 +1,78 @@
+.Section3 {
+  position: relative;
+  height: 90vh;
+  width: 100%;
+  color: #00050a;
+  padding: 0 3%;
+}
+
+.Section3 h3 {
+  color: #007bff;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  width: 23%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons button {
+  background: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  align-self: flex-end; /* Aligns button with inputs */
+  word-spacing: 5px;
+  box-shadow: 5px 5px 16px rgba(0, 0, 0, 0.4);
+}
+
+.buttons button:hover {
+  background: #0056b3;
+}
+
+.divisions {
+  display: flex;
+  flex-direction: row;
+  /* background-color: #007bff; */
+}
+
+.buttons button {
+  background: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 18px;
+  cursor: pointer;
+}
+
+@media (max-width: 505px) {
+  .Section3 {
+    position: relative;
+    width: 100%;
+    color: #00050a;
+    padding: 3%;
+  }
+  .Section3 h3{
+    margin: 70% -50px 0px 30px;
+  }
+
+  .buttons {
+    width: 70%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 30px;
+  }
+
+  .buttons button {
+    width: 100%; /* Makes buttons take full width */
+    padding: 12px; /* Adjusts button size for smaller screens */
+    border-radius: 10px;
+    box-shadow: none; /* Optional: removes shadow for smaller screens */
+  }
+}

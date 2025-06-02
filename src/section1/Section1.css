@@ -1,0 +1,231 @@
+.Sec1Con {
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(240, 240, 240);
+    padding-left: 3%;
+    margin-top: 0vh;
+}
+
+.Sec1Con ul li{
+    display: inline-block;
+    justify-content: space-evenly;
+    padding-right: 5px;
+    margin-bottom: 40px;
+    list-style-type: none;
+    font-size: 10px;
+    margin-top: 2.7%;
+    color: rgb(10, 147, 147);
+    cursor: pointer;
+}
+
+.Sec1Con h1{
+    color: rgb(73, 73, 214);
+    margin-bottom: 10px;
+    word-spacing: 10px;
+}
+
+.Sec1Con .p1{
+    margin-bottom: 30px;
+    font-size: 10px;
+}
+
+.Quote {
+    display: flex;
+    align-items: center;
+    padding: 2px;
+  }
+  
+  .QuoteInput {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;  /* Aligns items in a row */
+    gap: 20px; /* Adds spacing between items */
+    align-items: flex-end; /* Aligns inputs properly */
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column; /* Places label above input */
+    align-items: flex-start;
+  }
+  
+  .input-group h4 {
+    font-size: 16px;
+    margin-bottom: 5px; /* Adds space between label and input */
+  }
+  
+  .input-group input, .input-group select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 120px; /* Adjust width as needed */
+  }
+  
+  .QuoteInput button {
+    background: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-end; /* Aligns button with inputs */
+  }
+  
+  .QuoteInput button:hover {
+    background: #0056b3;
+  }
+  
+ 
+.Vector1 {
+    position: absolute;
+    right: 4%;
+    top: 16%;
+    width: 370px;
+    
+}
+
+@media (max-width: 425px){
+  .Sec1Con {
+    width: 109%;
+    height: 50vh;
+    background-color: rgb(240, 240, 240);
+    padding-left: 3%;
+    margin-top: 10vh;
+}
+  @media (prefers-reduced-motion: no-preference) {
+    .Sec1Con h1 {
+        word-spacing: 0px;
+      
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+.Quote {
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    margin-top: -10px;
+    opacity: 0; /* Start hidden */
+        transform: translateX(-100px);
+        animation: fade 3s ease-in-out forwards;
+  }
+  
+  .QuoteInput {
+    display: inline-block;  /* Aligns items in a row */
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column; /* Places label above input */
+    align-items: flex-start;
+    padding-bottom: 8px;
+  }
+  
+  .input-group h4 {
+    color: rgb(41, 41, 41);
+  }
+  
+  .QuoteInput button {
+    margin-left: 10px
+  
+  }
+  
+  .QuoteInput button:active {
+    background: #5411b4de;
+  }
+  
+ 
+.Vector1 {
+    position: absolute;
+    right: 0%;
+    top: 35%;
+    width: 170px;
+    
+}
+
+}
+
+/* Combined Media Query for max-width: 505px */
+@media 
+(max-width: 505px) {
+  .Sec1Con {
+      width: 129%;
+      height: 60vh;
+      background-color: rgb(240, 240, 240);
+      padding-left: 3%;
+      margin-top: 10vh;
+  }
+  .Sec1Con ul li{
+    margin-bottom: 20px;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+      .Sec1Con h1 {
+          word-spacing: 0px;
+      }
+  }
+
+  @keyframes fade {
+      from {
+          opacity: 0;
+          transform: translateX(-100px);
+      }
+      to {
+          opacity: 1;
+          transform: translateX(0);
+      }
+  }
+
+  .Quote {
+      display: flex;
+      align-items: center;
+      padding: 30px;
+      margin-top: 20px;
+      opacity: 0; /* Start hidden */
+      transform: translateX(-100px);
+      animation: fade 3s ease-in-out forwards;
+  }
+
+  .QuoteInput {
+      display: inline-block;  /* Aligns items in a row */
+  }
+
+  .input-group {
+      display: flex;
+      flex-direction: column; /* Places label above input */
+      align-items: flex-start;
+      padding-bottom: 8px;
+  }
+
+  .input-group h4 {
+      color: rgb(41, 41, 41);
+  }
+
+  .QuoteInput button {
+      margin-left: 10px;
+  }
+
+  .QuoteInput button:active {
+      background: #5411b4de;
+  }
+
+  .Vector1 {
+      position: absolute;
+      right: -19%;
+      top: 40%;
+      width: 190px;
+  }
+}

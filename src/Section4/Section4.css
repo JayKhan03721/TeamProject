@@ -1,0 +1,156 @@
+/* section4.css */
+
+/* Section 4 Base Styles */
+.section4 {
+  width: 50%;
+  background-color: transparent; /* Light background color */
+  padding-left: 3%; /* Left padding for the section */
+  display: inline-block; /* Allows blocks to appear next to each other */
+}
+
+/* Block 1 Styling */
+.block1 {
+  margin: 0px 0px 20px; 
+  border: none;
+  background-color: rgba(64, 172, 218, 0.112);
+  border-radius: 20px;
+  width: 77%;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 1.8;
+  word-spacing: 2.9px;
+  color: #007bff;
+}
+
+/* Block 2 Styling */
+.block2 {
+  margin-top: 30px;
+  background-color: rgba(64, 172, 218, 0.112);
+  border-radius: 20px;
+  width: 89%;
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  line-height: 1.8;
+  word-spacing: 3px;
+  color: #007bff;
+}
+
+/* Styling for Block 2 List */
+.block2 ul li {
+  margin-left: 5%;
+}
+
+/* Start Button Styling */
+.start-btn {
+  margin-top: 50px;
+  background: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 18px;
+  cursor: pointer;
+  align-self: flex-end; /* Aligns button to the right */
+  word-spacing: 5px;
+  box-shadow: 5px 5px 16px rgba(0, 0, 0, 0.2);
+}
+
+.start-btn:hover {
+  background: #0056b3;
+}
+
+/* Lifecon Section Styling */
+.lifecon {
+  margin-top: 120px;
+  position: absolute;
+  left: 0%;
+  width: 50%;
+  height: 30vh;
+  background-color: #6682a14d;
+  box-shadow: 0px 10px 20px 0px gray;
+}
+
+/* Header Styling */
+.headr {
+  margin-left: 50px;
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+/* Text Styling */
+.textr {
+  margin-left: 50px;
+  margin-top: 30px;
+  line-height: 1.8;
+}
+
+/* Shield Styling */
+.shieldr {
+  margin-top: 450px;
+  position: absolute;
+}
+
+/* Media Queries for slightly larger screens (max-width: 505px) */
+@media (max-width: 505px) {
+  /* Adjust section width */
+  .section4 {
+      width: 95%;
+      margin:30px
+  }
+  /* Adjust Block 2 height and width for smaller screens */
+  .block2 {
+      margin-top: 50px;
+      width: 100%;
+      height: 36vh;
+  }
+
+  .lifecon {
+    margin-top: 120px;
+    position: relative;
+    width: 120%;
+    height: 40vh;
+    display: flex;  
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center vertically */
+    align-items: flex-start; /* Align content to the left */
+    text-align: left; /* Ensure text is left-aligned */
+   
+}
+
+/* Header text adjustments */
+.headr {
+    display: flex;  
+    justify-content: flex-start; /* Align text to the left */
+    align-items: center;
+    font-size: 14px;
+    width: 100%;
+    text-align: left;
+    margin: 3px 10px ;
+
+}
+
+/* Text adjustments */
+.textr {
+    margin-top: 10px;
+    line-height: 1.8;
+    padding-right: 0; /* Remove unnecessary right padding */
+    text-align: left;
+    margin-left: 10px;
+}
+
+
+
+  /* Shield positioning */
+  .shieldr {
+      margin-top: 50px;
+      position: relative;
+      margin-left: 50px;
+      width: 350px;
+  }
+  
+}

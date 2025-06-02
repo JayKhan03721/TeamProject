@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Motor {
+    margin-top: 0vh;
+    height: 50vh;
+    width: 100%;
+    background-color: #F5F5F5;
+    position: relative;
+    z-index: -1;
+}
+
+.Motor ul {
+    margin-left: 3rem;
+}
+
+.Motor ul li {
+    display: inline-block;
+    margin-bottom: 10px;
+    list-style-type: none;
+    font-size: 10px;
+    margin-top: 2.7%;
+    color: rgb(10, 147, 147);
+    cursor: pointer;
+    padding-right: 0.3%;
+}
+
+.head {
+    color: #4949D6;
+    margin-left: 3%;
+    font-weight: bolder;
+    word-spacing: 10px;
+    font-size: 32px;
+    margin-top: 30px;
+
+}
+
+.par {
+    padding-top: 6px;
+    margin-left: 3%;
+    font-size: 10px;
+    color: #7BA7FB;
+    padding-bottom: 20px;
+}
+
+.btn1 {
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: #4296FC;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 3%;
+}
+
+.btn1:hover {
+    background-color: #0066e3;
+    transition: 0.3s;
+}
+
+.motor {
+    height: 340px;
+    position: absolute;
+    right: 10%; 
+    margin-top: -4%;
+    right: 4%;
+}
+
+.motorte {
+    position: absolute;
+    width: 43%;
+    height: 40%;
+    margin-left: 3%;
+    margin-top: -120px;
+}
+
+#btn2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+    margin-top: 120px;
+}
+
+#btn2 button {
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: #4296FC;
+    height: 30px;
+    width: 110px;
+    cursor: pointer;
+}
+
+#btn2 button:hover {
+    background-color: #0066e3;
+    transition: 0.3s;
+    color: antiquewhite;
+}
+
+.copyright {
+    text-align: right;
+    margin-right: 7%;
+    font-size: 9px;
+    padding-bottom: 40px;
+}
+
