@@ -5,10 +5,10 @@ const Section5 = (props) => {
   return (
     <div className="section5">
         <img className='person' src={personr} alt='Person'/>
-      
-      
-      <div className="policy-type">
-        <h1>Policy Type</h1>
+        <div className='PT'><h1>Policy Type</h1></div>
+
+        <div className='media-scroller'>
+          <div className="policy-type">
         <h2>Term life</h2>
         <p>Term life insurance with a term of 10, 15, 20, or 30 years makes sense if:</p>
         <ul>
@@ -73,7 +73,9 @@ const Section5 = (props) => {
       </div>
 
       <div className='copy'>© 2022 Nalico Nafico</div>
-    </div>
+    </div></div>
+      
+    
   );
 };
 

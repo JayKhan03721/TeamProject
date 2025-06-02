@@ -24,8 +24,8 @@ const Section4 = (props) => {
       <button className='start-btn'>Start your Quote</button>
 
       <div className='lifecon'>
-      <div className='head'><h3>Which life insurance policy is right for me?</h3></div>  
-        <div className='text'> 
+      <div className='headr'><h3>Which life insurance policy is right for me?</h3></div>  
+        <div className='textr'> 
         <p>Consider your budget and your reasons for getting life insurance when determining which type of life policy is best for you.
             Do you want to make sure your income is replaced in case you die before you retire? Or do you need coverage no matter when
             you pass? Explore these quick tips for narrowing down your options.

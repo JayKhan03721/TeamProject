@@ -1,0 +1,364 @@
+.Abcontainer {
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+  }
+  
+  .firstcun {
+    display: flex;
+    justify-content: center; /* Align content to the right */
+    align-items: center;
+    width: 100%;
+    min-height: 30vh;
+    justify-content: space-evenly;
+    position: relative;
+    /*padding-right: 20px;*/
+
+  }
+  .ttp{
+    position: absolute;
+    top: 0%;
+    color: #4B9CF0;
+    font-size: 20px;
+    word-spacing:5px;
+
+  }
+
+  .btm{
+    position: absolute;
+    bottom: 0%;
+    color: #4B9CF0;
+    font-size: 20px;
+    word-spacing:5px;
+
+  }
+
+  .singimg {
+    max-width: 100%;
+    width: 185px; /* Adjust as needed */
+    height: auto;
+  }
+
+  .singimg:hover{
+    margin-top: -30px;
+    transition: 0.5s ease-in-out;
+  }
+
+  .singimg2 {
+    max-width: 100%;
+    width: 128px; /* Adjust as needed */
+    height: auto;
+  }
+
+  .singimg2:hover{
+    margin-top: 30px;
+    transition: 0.5s;
+  }
+
+  .singimg3 {
+    max-width: 100%;
+    width: 129px; /* Adjust as needed */
+    height: auto;
+  }
+  .singimg3:hover{
+    margin-top: -30px;
+    transition: 0.5s;
+  }
+
+  .singimg4 {
+    max-width: 100%;
+    width: 155px; /* Adjust as needed */
+    height: auto;
+  }
+
+  .singimg4:hover{
+    margin-top: 30px;
+    transition: 0.5s;
+  }
+
+
+.secondcun{
+    display: flex;
+    justify-content: center; /* Align content to the right */
+    align-items: center;
+    width: 100%;
+    min-height: 50vh;
+
+    justify-content: space-evenly;
+    position: relative;
+}
+  
+.signlogo{
+    max-width: 500px;
+    width: auto;
+    height: auto;
+    padding-left: %;
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;  /* Align items vertically */
+    gap: 10px;  /* Adds spacing between items */
+    position: relative;
+  }
+  
+  .h2 {
+    text-align: left;  /* Align text to the left */
+    margin-bottom: 20px;  /* Add spacing below the heading */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #4B9CF0;
+  }
+  
+  .signup-form input {
+    width: 100%;  /* Make input take full width of the container */
+    height: 30px;
+    padding: 10px;
+    background: linear-gradient(to bottom, rgb(218, 218, 218), rgb(214, 214, 214));
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;  /* Adds space between inputs */
+  }
+  
+  .pass {
+    display: flex;  /* Use flex to align the password fields */
+    flex-direction: row;  /* Align items side by side */
+    gap: 10px;  /* Adds spacing between the inputs */
+  }
+  
+  .pass input {
+    width: 50%;  /* Makes the inputs take up 48% of the width, leaving space between */
+    padding: 10px;  /* Adds padding for better appearance */
+    border: 1px solid #ccc;  /* Light border for inputs */
+    border-radius: 5px;  /* Rounded corners */
+  }
+  
+  .pass input:focus {
+    border-color: #39b1f3;  /* Highlight border on focus */
+    outline: none;  /* Remove default outline */
+  }
+  
+  .signbtns {
+    display: flex;  /* Align items horizontally */
+    gap: 10px;  /* Add spacing between buttons */
+  }
+  
+  .iii {
+    flex: 1;  /* Makes buttons take equal space */
+    padding: 10px;  /* Adds padding for better appearance */
+    border: 1px solid #ccc;  /* Light border */
+    border-radius: 5px;  /* Rounded corners */
+    background-color: #4B9CF0;
+    color: white;  /* Button text color */
+  }
+  
+  .iii:hover {
+    border: 1px solid gray;
+    background-color: transparent;
+    color: gray;
+    transition: 0.3s;
+  }
+
+  
+
+  .signup-form label {
+    display: flex;  /* Align the checkbox and label text horizontally */
+    align-items: center;  /* Vertically center the checkbox and text */
+    gap: 5px;  /* Adds a little space between the checkbox and label text */
+    margin-top: 20px;  /* Add some margin to push the checkbox down */
+  }
+  
+  .signup-form input[type="checkbox"] {
+    width: auto;  /* Ensures checkbox doesn't stretch to fill space */
+    height: auto;  /* Prevents any unexpected resizing */
+    margin-right: 5px;  /* Adds space between the checkbox and text */
+  }
+
+  .signup-form input[name="rememberMe"] {
+    width: auto;  /* Ensures checkbox doesn't stretch */
+    height: auto;  /* Prevents unexpected resizing */
+    margin-top: 8px;  /* Adds space between the checkbox and text */
+  }
+  
+  .signup-form label {
+    font-size: 12px;  /* Change font size of label text */
+  }
+  
+  @media (max-width: 505px) {
+    .Abcontainer {
+      margin-top: 20%;
+      margin-left: 10%;
+    }
+    
+    .firstcun {
+     
+      width: 30%;
+      min-height: 40vh;
+      margin-left:  40%;
+  
+    }
+    .ttp{
+      color: #4B9CF0;
+      font-size: 20px;
+      word-spacing:5px;
+      margin: 10% -140% 0 10%;
+      
+    }
+  
+    .btm{
+      color: #4B9CF0;
+      font-size: 20px;
+      word-spacing:5px;
+      margin: 10% -140% 0 10%;
+  
+    }
+  
+    .singimg {
+      max-width: 100%;
+      width: 125px; /* Adjust as needed */
+      height: auto;
+        }
+  
+    .singimg:hover{
+      margin-top: -30px;
+      transition: 0.5s ease-in-out;
+    }
+  
+    .singimg2 {
+      max-width: 90%;
+      width: 90px; /* Adjust as needed */
+      height: auto;
+    }
+  
+    .singimg2:hover{
+      margin-top: 30px;
+      transition: 0.5s;
+    }
+  
+    .singimg3 {
+      max-width: 90%;
+      width: 125px; /* Adjust as needed */
+      height: auto;
+    }
+    .singimg3:hover{
+      margin-top: -30px;
+      transition: 0.5s;
+    }
+  
+    .singimg4 {
+      max-width: 90%;
+      width: 125px; /* Adjust as needed */
+      height: auto;
+    }
+  
+    .singimg4:hover{
+      margin-top: 30px;
+      transition: 0.5s;
+    }
+  
+  
+  .secondcun{
+      display: flex;
+      justify-content: center; /* Align content to the right */
+      align-items: center;
+      width: 100%;
+      min-height: 50vh;
+  
+      justify-content: space-evenly;
+      position: relative;
+  }
+    
+  .signlogo{
+      max-width: 500px;
+      width: auto;
+      height: auto;
+      padding-left: %;
+    }
+    
+    .signup-form {
+      display: flex;
+      flex-direction: column;  /* Align items vertically */
+      gap: 10px;  /* Adds spacing between items */
+      position: relative;
+    }
+    
+    .h2 {
+      text-align: left;  /* Align text to the left */
+      margin-bottom: 20px;  /* Add spacing below the heading */
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      color: #4B9CF0;
+    }
+    
+    .signup-form input {
+      width: 100%;  /* Make input take full width of the container */
+      height: 30px;
+      padding: 10px;
+      background: linear-gradient(to bottom, rgb(218, 218, 218), rgb(214, 214, 214));
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 10px;  /* Adds space between inputs */
+    }
+    
+    .pass {
+      display: flex;  /* Use flex to align the password fields */
+      flex-direction: row;  /* Align items side by side */
+      gap: 10px;  /* Adds spacing between the inputs */
+    }
+    
+    .pass input {
+      width: 50%;  /* Makes the inputs take up 48% of the width, leaving space between */
+      padding: 10px;  /* Adds padding for better appearance */
+      border: 1px solid #ccc;  /* Light border for inputs */
+      border-radius: 5px;  /* Rounded corners */
+    }
+    
+    .pass input:focus {
+      border-color: #39b1f3;  /* Highlight border on focus */
+      outline: none;  /* Remove default outline */
+    }
+    
+    .signbtns {
+      display: flex;  /* Align items horizontally */
+      gap: 10px;  /* Add spacing between buttons */
+    }
+    
+    .iii {
+      flex: 1;  /* Makes buttons take equal space */
+      padding: 10px;  /* Adds padding for better appearance */
+      border: 1px solid #ccc;  /* Light border */
+      border-radius: 5px;  /* Rounded corners */
+      background-color: #4B9CF0;
+      color: white;  /* Button text color */
+    }
+    
+    .iii:hover {
+      border: 1px solid gray;
+      background-color: transparent;
+      color: gray;
+      transition: 0.3s;
+    }
+  
+    
+  
+    .signup-form label {
+      display: flex;  /* Align the checkbox and label text horizontally */
+      align-items: center;  /* Vertically center the checkbox and text */
+      gap: 5px;  /* Adds a little space between the checkbox and label text */
+      margin-top: 20px;  /* Add some margin to push the checkbox down */
+    }
+    
+    .signup-form input[type="checkbox"] {
+      width: auto;  /* Ensures checkbox doesn't stretch to fill space */
+      height: auto;  /* Prevents any unexpected resizing */
+      margin-right: 5px;  /* Adds space between the checkbox and text */
+    }
+  
+    .signup-form input[name="rememberMe"] {
+      width: auto;  /* Ensures checkbox doesn't stretch */
+      height: auto;  /* Prevents unexpected resizing */
+      margin-top: 8px;  /* Adds space between the checkbox and text */
+    }
+    
+    .signup-form label {
+      font-size: 12px;  /* Change font size of label text */
+    }
+  }

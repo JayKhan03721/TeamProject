@@ -1,8 +1,8 @@
 import "./cards.css";
 
-const Cards = ({ img, children }) => {
+const Cards = ({ img, children, className }) => {
   return (
-    <div className="cardCon">
+    <div className={`cardCon ${className}`}>
       <div className="cardContent">
         <div className="image-container">{img}</div>  
         {children}
