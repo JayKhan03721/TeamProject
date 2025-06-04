@@ -96,7 +96,7 @@ function App() {
       
       <Routes>
         <Route
-          path="/TeamProject/"
+          path="/Frotend/"
           element={
             <>
               <Section1></Section1>
