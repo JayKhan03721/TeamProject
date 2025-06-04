@@ -50,7 +50,7 @@ function App() {
             <li onClick={() => {navigate("/insurance/Contractor")}}>Contractor's insurance and bonds</li>
             <li onClick={() => {navigate("/insurance/motor")}}> Motor Insurance</li>
             <li onClick={() => {navigate("/insurance/property")}}> Property Insurance</li>
-           <li onClick={() => {navigate("/insurance/Pension&Annuities")}}>Pension & Annuities</li>
+            <li onClick={() => {navigate("insurance/Pension&Annuities")}}>Pension & Annuities</li>
           </ul>
         </li>
 
@@ -96,7 +96,7 @@ function App() {
       
       <Routes>
         <Route
-          path="/"
+          path="/TeamProject/"
           element={
             <>
               <Section1></Section1>
@@ -114,7 +114,6 @@ function App() {
         <Route path="/insurance/property" element={<Property/>} />
         <Route path="/insurance/Pension&Annuities" element={<Pension/>}/>
         <Route path="nalico/nafico/log-in/sign-up" element={<Sign/>}/>
-        
       </Routes>
     </>
   );
